@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "nodeify": "rn-nodeify --install --hack --overwrite",
+    "nodeify": "rn-nodeify --install --hack --overwrite --yarn",
     "postinstall": "npm run nodeify"
   },
   "dependencies": {
@@ -24,7 +24,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.48.1",
     "react-native-crypto": "^2.0.0",
-    "react-native-http": "github:tradle/react-native-http#834492d",
+    "react-native-http": "tradle/react-native-http#834492d",
     "react-native-level-fs": "^3.0.0",
     "react-native-os": "^1.0.1",
     "react-native-randombytes": "^3.0.0",
@@ -44,7 +44,7 @@
     "babel-preset-react-native": "3.0.2",
     "jest": "21.0.1",
     "react-test-renderer": "16.0.0-alpha.12",
-    "rn-nodeify": "github:mvayngrib/rn-nodeify"
+    "rn-nodeify": "monolithlabs/rn-nodeify#yarn"
   },
   "jest": {
     "preset": "react-native"
